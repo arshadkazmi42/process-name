@@ -5,7 +5,7 @@ const { ProcessName, ProcessNameConstants } = require('../index');
 
 const getChrome = () => {
   if (process.platform === 'darwin') {
-    return 'Chrome';
+    return 'Google Chrome';
   }
 
   if (process.platform === 'win32') {

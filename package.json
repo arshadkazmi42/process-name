@@ -1,6 +1,6 @@
 {
   "name": "process-name",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Application process name cross platform",
   "main": "index.js",
   "scripts": {
