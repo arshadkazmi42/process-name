@@ -14,7 +14,7 @@ npm i process-name --save
 
 ```javascript
 
-const { ProcessName, ProcessNameConstants } = require('../index');
+const { ProcessName, ProcessNameConstants } = require('process-name');
 
 const chromeProcessName = ProcessName.BROWSERS[ProcessNameConstants.BROWSERS.CHROME][process.platform];
 const firefoxProcessName = ProcessName.BROWSERS[ProcessNameConstants.BROWSERS.FIREFOX][process.platform];
