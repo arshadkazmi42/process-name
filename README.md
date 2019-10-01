@@ -1,12 +1,12 @@
 # process-name
 
 [![Build](https://img.shields.io/travis/com/arshadkazmi42/process-name.svg)](https://travis-ci.com/arshadkazmi42/process-name/)
-[![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/flip-remote.svg)](https://github.com/arshadkazmi42/process-name)
-[![LICENSE](https://img.shields.io/npm/l/flip-remote.svg)](https://github.com/arshadkazmi42/process-name/blob/master/LICENSE)
-[![NPM Downloads](https://img.shields.io/npm/dt/flip-remote.svg)](https://www.npmjs.com/package/process-name)
-[![NPM Version](https://img.shields.io/npm/v/flip-remote.svg)](https://www.npmjs.com/package/process-name)
-[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/flip-remote.svg)](https://github.com/arshadkazmi42/process-name/graphs/contributors)
-[![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/flip-remote.svg)](https://github.com/arshadkazmi42/process-name/commits/master)
+[![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/process-name.svg)](https://github.com/arshadkazmi42/process-name)
+[![LICENSE](https://img.shields.io/npm/l/process-name.svg)](https://github.com/arshadkazmi42/process-name/blob/master/LICENSE)
+[![NPM Downloads](https://img.shields.io/npm/dt/process-name.svg)](https://www.npmjs.com/package/process-name)
+[![NPM Version](https://img.shields.io/npm/v/process-name.svg)](https://www.npmjs.com/package/process-name)
+[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/process-name.svg)](https://github.com/arshadkazmi42/process-name/graphs/contributors)
+[![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/process-name.svg)](https://github.com/arshadkazmi42/process-name/commits/master)
 
 Get platform specific application process name (cross platform)
 
