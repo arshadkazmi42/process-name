@@ -1,4 +1,5 @@
 # process-name
+[![Build](https://img.shields.io/travis/com/arshadkazmi42/process-name.svg)](https://travis-ci.com/arshadkazmi42/process-name/)
 [![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/process-name.svg)](https://github.com/arshadkazmi42/process-name)
 [![LICENSE](https://img.shields.io/npm/l/process-name.svg)](https://github.com/arshadkazmi42/process-name/blob/master/LICENSE)
 [![NPM Downloads](https://img.shields.io/npm/dt/process-name.svg)](https://www.npmjs.com/package/process-name)
