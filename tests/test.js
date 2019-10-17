@@ -24,11 +24,23 @@ const getFirefox = () => {
   return 'firefox';
 };
 
+const getVscode = () => {
+  if (process.platform === 'darwin') {
+    return 'Code';
+  }
+
+  if (process.platform === 'win32') {
+    return 'Code.exe';
+  }
+
+  return 'code';
+};
 
 describe('tests process names', () => {
   it('should return correct process name', () => {
     expect(ProcessName.BROWSERS[ProcessNameConstants.BROWSERS.CHROME][process.platform]).to.equal(getChrome());
     expect(ProcessName.BROWSERS[ProcessNameConstants.BROWSERS.FIREFOX][process.platform]).to.equal(getFirefox());
+    expect(ProcessName.EDITORS[ProcessNameConstants.EDITORS.VSCODE][process.platform]).to.equal(getVscode());
   });
   it('should return undefined for invalid application', () => {
     expect(ProcessName.BROWSERS[ProcessNameConstants.BROWSERS.ARSHAD]).to.equal(undefined);
@@ -36,7 +48,7 @@ describe('tests process names', () => {
   it('should throw error for accessing invalid application', () => {
     try {
       ProcessName.BROWSERS[ProcessNameConstants.BROWSERS.ARSHAD][process.platform];
-    } catch (err) {      
+    } catch (err) {
       expect(err.message).to.equal(`Cannot read property '${process.platform}' of undefined`);
     }
   });
